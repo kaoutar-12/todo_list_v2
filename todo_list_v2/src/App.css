@@ -8,10 +8,12 @@
 }
 
 body {
-  background: #8758ff;
+  background:linear-gradient(to bottom, #8758ff, #dad1ef);
+  height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  background-repeat: no-repeat;
 }
 
 .App {
@@ -28,7 +30,9 @@ h1 {
   background: #1A1A40;
   margin-top: 5rem;
   padding: 2rem;
-  border-radius: 5px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 15px;
 }
 
 .TodoForm {
@@ -68,6 +72,13 @@ h1 {
   padding: 0.75rem 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
+}
+
+.todo-btn:hover {
+  background: #412980;
+  /* padding: 1rem;
+  margin: 1rem; */
+  border: 1px solid #fff;
 }
 
 .fa-trash {
